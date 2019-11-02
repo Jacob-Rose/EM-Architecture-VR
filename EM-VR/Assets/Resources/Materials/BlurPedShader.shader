@@ -2,8 +2,10 @@
 
 Shader "Jake/TransparentBlur" {
 	Properties{
-		_MainTex("Base (RGB) Trans (A)", 2D) = "white" {}
-		_BlurAmount("Blur Speed", Float) = 100.0
+		_MainTex("Base (RGB)", 2D) = "white" {}
+		_MixTex("Mix (RGBA)", 2D) = "white" {}
+		_BlurAmount("Mix Amount", Range(0,1)) = 1.0
+		_Transparency("Transparency", Range(0,1)) = 1.0
 	}
 
 		SubShader{
@@ -34,7 +36,9 @@ Shader "Jake/TransparentBlur" {
 
 					sampler2D _MainTex;
 					float4 _MainTex_ST;
+					sampler2D _MixTex;
 					float _BlurAmount;
+					float _Transparency;
 
 					v2f vert(appdata_t v)
 					{
@@ -49,22 +53,40 @@ Shader "Jake/TransparentBlur" {
 
 					fixed4 frag(v2f i) : SV_Target
 					{
-						fixed4 center = tex2D(_MainTex, i.texcoord);
-						
-						//fixed4 left = tex2D(_MainTex, i.texcoord + float3(-_BlurAmount, 0, 0));
-						//fixed4 right = tex2D(_MainTex, i.texcoord + float3(_BlurAmount, 0, 0));
-						half4 col = center;
-						for (int inc = 0; inc <= quality; ++inc)
-						{
-							col += tex2D(_MainTex, i.texcoord + half2(_BlurAmount * inc, 0.0f));
-						}
+						fixed4 mainCol = tex2D(_MainTex, i.texcoord);
+						fixed4 otherCol = tex2D(_MixTex, i.texcoord);
+						fixed4 col = lerp(mainCol, otherCol, _BlurAmount);
 
-						//col /= quality;
-						//UNITY_APPLY_FOG(i.fogCoord, col);
-						return col;
+						return fixed4(col.rgb, col.a * _Transparency);
 					}
 				ENDCG
 			}
 	}
+
+			SubShader
+					{
+							Tags {"Queue" = "AlphaTest" "IgnoreProjector" = "True" "RenderType" = "Geometry"}
+							blend SrcAlpha OneMinusSrcAlpha
+
+							LOD 200
+							CGPROGRAM
+							#pragma surface surf Lambert exclude_path:prepass
+
+							sampler2D _MainTex;
+							fixed4 _Color;
+
+							struct Input
+							{
+									float2 uv_MainTex;
+							};
+
+							void surf(Input IN, inout SurfaceOutput o)
+							{
+									fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+									o.Albedo = c.rgb;
+									o.Alpha = c.a;
+							}
+							ENDCG
+					}
 
 }
