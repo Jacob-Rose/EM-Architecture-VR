@@ -261,13 +261,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1862
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1869
   buildingMesh: {fileID: 292521199}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -312,9 +311,9 @@ Transform:
   m_LocalPosition: {x: 92.65006, y: -23.48018, z: -83.38934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1146718607}
+  - {fileID: 292521202}
   m_Father: {fileID: 954770345}
-  m_RootOrder: 12
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &146550158
 GameObject:
@@ -329,7 +328,7 @@ GameObject:
   - component: {fileID: 146550159}
   - component: {fileID: 146550160}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +404,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 15, y: 20, z: 25}
   m_Children: []
-  m_Father: {fileID: 1787673294}
+  m_Father: {fileID: 2021042955}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &231382577
@@ -419,7 +418,7 @@ GameObject:
   - component: {fileID: 231382579}
   - component: {fileID: 231382578}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (2)
+  m_Name: 511 place armes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,13 +439,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1880
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1889
   buildingMesh: {fileID: 1580355268}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -491,9 +489,9 @@ Transform:
   m_LocalPosition: {x: 36.950066, y: -23.48018, z: -12.989342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2065992698}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 8
+  - {fileID: 1580355271}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266312269
 GameObject:
@@ -601,7 +599,7 @@ GameObject:
   - component: {fileID: 292521199}
   - component: {fileID: 292521200}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +675,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 15, y: 20, z: 25}
   m_Children: []
-  m_Father: {fileID: 1146718607}
+  m_Father: {fileID: 43454947}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &331479016
@@ -780,7 +778,6 @@ MonoBehaviour:
     day: 1
     year: 2005
   buildingMesh: {fileID: 1380806762}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -825,9 +822,9 @@ Transform:
   m_LocalPosition: {x: 35.870064, y: -23.48018, z: -113.68934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 446649567}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 6
+  - {fileID: 1380806765}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &411750845
 GameObject:
@@ -840,7 +837,7 @@ GameObject:
   - component: {fileID: 411750847}
   - component: {fileID: 411750846}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (1)
+  m_Name: 501-507 place armes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,13 +858,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1925
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1931
   buildingMesh: {fileID: 1357622252}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -912,39 +908,8 @@ Transform:
   m_LocalPosition: {x: 37.550064, y: -23.48018, z: -37.58934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1555028896}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &446649566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 446649567}
-  m_Layer: 0
-  m_Name: MeshV
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &446649567
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446649566}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1380806765}
-  m_Father: {fileID: 364042397}
+  - {fileID: 1357622255}
+  m_Father: {fileID: 1843837763}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &451883208
@@ -1051,37 +1016,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 800138908}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &510345656
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 510345657}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &510345657
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510345656}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1593299573}
-  m_Father: {fileID: 1947116478}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537207488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1054,6 @@ MonoBehaviour:
     day: 1
     year: 1829
   buildingMesh: {fileID: 1798212124}
-  yearVerified: 1
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -1162,12 +1095,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537207488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.449934, y: -23.48018, z: -86.83934}
+  m_LocalPosition: {x: -20, y: -23.5, z: -86.83934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1798212126}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 0
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &545570609
 GameObject:
@@ -1375,37 +1308,6 @@ Transform:
   m_Father: {fileID: 1334416124}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
---- !u!1 &730904310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 730904311}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &730904311
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730904310}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1790811373}
-  m_Father: {fileID: 2032426847}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &769079704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1346,6 @@ MonoBehaviour:
     day: 1
     year: 1895
   buildingMesh: {fileID: 2031976993}
-  yearVerified: 1
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -1489,9 +1390,9 @@ Transform:
   m_LocalPosition: {x: -20.949934, y: -23.40018, z: -26.889341}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1211096661}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 1
+  - {fileID: 1094351491}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798909372
 GameObject:
@@ -1532,7 +1433,7 @@ MonoBehaviour:
   currentTimelineDate:
     month: 1
     day: 1
-    year: 1920
+    year: 1900
 --- !u!4 &798909374
 Transform:
   m_ObjectHideFlags: 0
@@ -1552,17 +1453,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1222113866}
+    m_TransformParent: {fileID: 1951729666}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 38e3b4cf36a2db147a429ef247a767f7,
         type: 3}
       propertyPath: m_Name
-      value: 500nb_notUVd
+      value: Mesh
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 38e3b4cf36a2db147a429ef247a767f7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 38e3b4cf36a2db147a429ef247a767f7,
         type: 3}
@@ -1666,7 +1567,7 @@ Transform:
   m_Children:
   - {fileID: 360928061}
   m_Father: {fileID: 954770345}
-  m_RootOrder: 15
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &882282246
 MonoBehaviour:
@@ -1689,7 +1590,6 @@ MonoBehaviour:
     day: 1
     year: 1913
   buildingMesh: {fileID: 1922837538}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -1757,37 +1657,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &917837554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 917837555}
-  m_Layer: 0
-  m_Name: MeshV
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &917837555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917837554}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1796025650}
-  m_Father: {fileID: 1191234993}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &954770344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,56 +1684,13 @@ Transform:
   m_LocalPosition: {x: 20.449934, y: 23.48018, z: 35.48934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 537207490}
-  - {fileID: 769079706}
-  - {fileID: 1951729666}
-  - {fileID: 2142789180}
-  - {fileID: 1191234993}
-  - {fileID: 1585737083}
-  - {fileID: 364042397}
-  - {fileID: 411750847}
-  - {fileID: 231382579}
-  - {fileID: 2021042955}
-  - {fileID: 2032426847}
-  - {fileID: 1947116478}
+  - {fileID: 1843837763}
   - {fileID: 43454947}
   - {fileID: 1154256692}
-  - {fileID: 1390792855}
   - {fileID: 882282245}
-  - {fileID: 1508467075}
+  - {fileID: 1390792855}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &969386226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 969386227}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &969386227
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969386226}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1203025089}
-  m_Father: {fileID: 1508467075}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1009400391
 GameObject:
@@ -1979,17 +1805,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1211096661}
+    m_TransformParent: {fileID: 769079706}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 565add83054bf7b4e976e25262b6e20a,
         type: 3}
       propertyPath: m_Name
-      value: fountain_quickUVd
+      value: Mesh
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 565add83054bf7b4e976e25262b6e20a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 565add83054bf7b4e976e25262b6e20a,
         type: 3}
@@ -2009,7 +1835,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 565add83054bf7b4e976e25262b6e20a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 565add83054bf7b4e976e25262b6e20a,
         type: 3}
@@ -2064,7 +1890,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: dad580a4416195b4fb611b93cf00f638,
         type: 3}
       propertyPath: m_Name
-      value: model
+      value: Mesh
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dad580a4416195b4fb611b93cf00f638,
         type: 3}
@@ -2079,7 +1905,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: dad580a4416195b4fb611b93cf00f638,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dad580a4416195b4fb611b93cf00f638,
         type: 3}
@@ -2139,37 +1965,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1567949956}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1146718606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1146718607}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1146718607
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146718606}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 292521202}
-  m_Father: {fileID: 43454947}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1154256691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,7 +1995,7 @@ Transform:
   m_Children:
   - {fileID: 331479017}
   m_Father: {fileID: 954770345}
-  m_RootOrder: 13
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1154256693
 MonoBehaviour:
@@ -2223,7 +2018,6 @@ MonoBehaviour:
     day: 1
     year: 1913
   buildingMesh: {fileID: 545570612}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -2289,13 +2083,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1840
+    year: 1839
   endConstructionTimelineDate:
     month: 6
     day: 1
     year: 1843
   buildingMesh: {fileID: 1796025648}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -2340,9 +2133,9 @@ Transform:
   m_LocalPosition: {x: 29.950068, y: -23.48018, z: -93.08934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 917837555}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 4
+  - {fileID: 1796025650}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1203025088
 GameObject:
@@ -2357,7 +2150,7 @@ GameObject:
   - component: {fileID: 1203025091}
   - component: {fileID: 1203025090}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2374,7 +2167,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 25, y: 40, z: 25}
   m_Children: []
-  m_Father: {fileID: 969386227}
+  m_Father: {fileID: 1508467075}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1203025090
@@ -2436,68 +2229,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203025088}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1211096660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1211096661}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1211096661
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211096660}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1094351491}
-  m_Father: {fileID: 769079706}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1222113865
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222113866}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1222113866
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222113865}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 500810673}
-  m_Father: {fileID: 1951729666}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1334416123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,7 +2276,7 @@ GameObject:
   - component: {fileID: 1357622252}
   - component: {fileID: 1357622253}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2618,10 +2349,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357622251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.4, y: 40, z: 0}
+  m_LocalPosition: {x: 12, y: 39.3, z: 0}
   m_LocalScale: {x: 50, y: 80, z: 25}
   m_Children: []
-  m_Father: {fileID: 1555028896}
+  m_Father: {fileID: 411750847}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1380806761
@@ -2637,7 +2368,7 @@ GameObject:
   - component: {fileID: 1380806762}
   - component: {fileID: 1380806763}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2713,7 +2444,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 25, y: 20, z: 25}
   m_Children: []
-  m_Father: {fileID: 446649567}
+  m_Father: {fileID: 364042397}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390792854
@@ -2746,7 +2477,7 @@ Transform:
   m_Children:
   - {fileID: 1888169890}
   m_Father: {fileID: 954770345}
-  m_RootOrder: 14
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1390792856
 MonoBehaviour:
@@ -2769,7 +2500,6 @@ MonoBehaviour:
     day: 1
     year: 1913
   buildingMesh: {fileID: 451883211}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -2820,7 +2550,7 @@ GameObject:
   - component: {fileID: 1508467075}
   - component: {fileID: 1508467076}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (10)
+  m_Name: 701 place armes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2834,12 +2564,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508467074}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.5, y: -23.48018, z: 35.8}
+  m_LocalPosition: {x: 45.5, y: -23.48018, z: 35.799995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 969386227}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 16
+  - {fileID: 1203025089}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1508467076
 MonoBehaviour:
@@ -2856,13 +2586,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1865
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1870
   buildingMesh: {fileID: 1203025091}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -2896,37 +2625,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1555028895
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1555028896}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1555028896
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555028895}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1357622255}
-  m_Father: {fileID: 411750847}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1567949956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3034,7 +2732,7 @@ GameObject:
   - component: {fileID: 1580355268}
   - component: {fileID: 1580355269}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3110,7 +2808,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 25, y: 40, z: 25}
   m_Children: []
-  m_Father: {fileID: 2065992698}
+  m_Father: {fileID: 231382579}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1585737081
@@ -3145,13 +2843,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1684
+    year: 1680
   endConstructionTimelineDate:
     month: 9
     day: 1
     year: 1687
   buildingMesh: {fileID: 1987344672}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -3196,9 +2893,9 @@ Transform:
   m_LocalPosition: {x: -69.549934, y: -23.48018, z: -92.08934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1892697797}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 5
+  - {fileID: 1987344675}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1593299569
 GameObject:
@@ -3213,7 +2910,7 @@ GameObject:
   - component: {fileID: 1593299570}
   - component: {fileID: 1593299571}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3289,38 +2986,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 15, y: 20, z: 25}
   m_Children: []
-  m_Father: {fileID: 510345657}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1787673293
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1787673294}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1787673294
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787673293}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 146550162}
-  m_Father: {fileID: 2021042955}
+  m_Father: {fileID: 1947116478}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1790811369
@@ -3336,7 +3002,7 @@ GameObject:
   - component: {fileID: 1790811370}
   - component: {fileID: 1790811371}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3412,7 +3078,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 15, y: 20, z: 25}
   m_Children: []
-  m_Father: {fileID: 730904311}
+  m_Father: {fileID: 2032426847}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1796025646
@@ -3428,7 +3094,7 @@ GameObject:
   - component: {fileID: 1796025648}
   - component: {fileID: 1796025647}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3504,7 +3170,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 15, y: 20, z: 15}
   m_Children: []
-  m_Father: {fileID: 917837555}
+  m_Father: {fileID: 1191234993}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1798212124 stripped
@@ -3519,6 +3185,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1095193851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1843837762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843837763}
+  m_Layer: 0
+  m_Name: Dates_Confirmed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1843837763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843837762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 411750847}
+  - {fileID: 537207490}
+  - {fileID: 769079706}
+  - {fileID: 1951729666}
+  - {fileID: 2142789180}
+  - {fileID: 1191234993}
+  - {fileID: 1585737083}
+  - {fileID: 364042397}
+  - {fileID: 1508467075}
+  - {fileID: 231382579}
+  - {fileID: 2021042955}
+  - {fileID: 2032426847}
+  - {fileID: 1947116478}
+  m_Father: {fileID: 954770345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1888169889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,37 +3259,6 @@ Transform:
   m_Father: {fileID: 1390792855}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1892697796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1892697797}
-  m_Layer: 0
-  m_Name: MeshV
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1892697797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892697796}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1987344675}
-  m_Father: {fileID: 1585737083}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894489105
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,7 +3272,7 @@ GameObject:
   - component: {fileID: 1894489106}
   - component: {fileID: 1894489107}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3617,7 +3295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dee5da70d9da63d4b8dfc0a3a51c49a9, type: 2}
+  - {fileID: 2100000, guid: afe0060c376765242bf2dbe6e52ffaaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3670,7 +3348,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 15, y: 40, z: 15}
   m_Children: []
-  m_Father: {fileID: 1917862350}
+  m_Father: {fileID: 2142789180}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1897876147 stripped
@@ -3679,37 +3357,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5806113439183649080}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1917862349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1917862350}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1917862350
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917862349}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1894489109}
-  m_Father: {fileID: 2142789180}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919093724
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,7 +3385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919093724}
   m_LocalRotation: {x: 0.4999996, y: 0.499999, z: -0.5000005, w: 0.50000095}
-  m_LocalPosition: {x: -25.1, y: -44.4, z: -60.3}
+  m_LocalPosition: {x: -25.1, y: -44.4, z: -95.21}
   m_LocalScale: {x: 16, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1334416124}
@@ -3921,7 +3568,7 @@ GameObject:
   - component: {fileID: 1947116478}
   - component: {fileID: 1947116477}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (5)
+  m_Name: 60 rue notre dame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3942,13 +3589,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1863
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1867
   buildingMesh: {fileID: 1593299570}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -3993,9 +3639,9 @@ Transform:
   m_LocalPosition: {x: 77.050064, y: -23.48018, z: -83.38934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 510345657}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 11
+  - {fileID: 1593299573}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1951729664
 GameObject:
@@ -4035,7 +3681,6 @@ MonoBehaviour:
     day: 1
     year: 1928
   buildingMesh: {fileID: 500810674}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -4077,12 +3722,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951729664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.449936, y: -23.48018, z: -13.7}
+  m_LocalPosition: {x: -80, y: -25, z: -13.700001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1222113866}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 2
+  - {fileID: 500810673}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969231420
 GameObject:
@@ -4188,7 +3833,7 @@ GameObject:
   - component: {fileID: 1987344672}
   - component: {fileID: 1987344673}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest
+  m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4264,7 +3909,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 30, y: 20, z: 15}
   m_Children: []
-  m_Father: {fileID: 1892697797}
+  m_Father: {fileID: 1585737083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2021042953
@@ -4278,7 +3923,7 @@ GameObject:
   - component: {fileID: 2021042955}
   - component: {fileID: 2021042954}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (3)
+  m_Name: 461 rue saint sulpice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4299,13 +3944,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1862
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1867
   buildingMesh: {fileID: 146550159}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -4350,9 +3994,9 @@ Transform:
   m_LocalPosition: {x: 45.850067, y: -23.48018, z: -83.38934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1787673294}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 9
+  - {fileID: 146550162}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2031976993 stripped
 MeshRenderer:
@@ -4371,7 +4015,7 @@ GameObject:
   - component: {fileID: 2032426847}
   - component: {fileID: 2032426846}
   m_Layer: 0
-  m_Name: 84-88 rue Notre Dame Quest (4)
+  m_Name: 70 rue notre dame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4392,13 +4036,12 @@ MonoBehaviour:
   startConstructionTimelineDate:
     month: 6
     day: 1
-    year: 1909
+    year: 1923
   endConstructionTimelineDate:
     month: 9
     day: 1
-    year: 1913
+    year: 1929
   buildingMesh: {fileID: 1790811370}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -4443,9 +4086,9 @@ Transform:
   m_LocalPosition: {x: 61.450066, y: -23.48018, z: -83.38934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 730904311}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 10
+  - {fileID: 1790811373}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2058999358
 PrefabInstance:
@@ -4504,37 +4147,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
---- !u!1 &2065992697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2065992698}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2065992698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065992697}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1580355271}
-  m_Father: {fileID: 231382579}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142789178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4573,7 +4185,6 @@ MonoBehaviour:
     day: 1
     year: 1913
   buildingMesh: {fileID: 1894489106}
-  yearVerified: 0
   animCurve:
     serializedVersion: 2
     m_Curve:
@@ -4618,9 +4229,9 @@ Transform:
   m_LocalPosition: {x: 29.950068, y: -23.48018, z: -77.68935}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1917862350}
-  m_Father: {fileID: 954770345}
-  m_RootOrder: 3
+  - {fileID: 1894489109}
+  m_Father: {fileID: 1843837763}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1290074774286634220
 PrefabInstance:

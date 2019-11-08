@@ -10,9 +10,10 @@ public class TimelineBuilding : MonoBehaviour
 
     public MeshRenderer buildingMesh;
 
-    private DateTime startConstructionDate;
-    private DateTime endConstructionDate;
-    public bool yearVerified = false;
+    [SerializeField]
+    public DateTime startConstructionDate;
+    [SerializeField]
+    public DateTime endConstructionDate;
     public AnimationCurve animCurve = new AnimationCurve(new Keyframe(0.0f, 0.0f), new Keyframe(0.8f, 1.0f), new Keyframe(1.0f, 0.0f));
 
     private GameObject constructionBuilding;
@@ -41,7 +42,7 @@ public class TimelineBuilding : MonoBehaviour
             float amount = animCurve.Evaluate(relTime);
             Bounds cBounds = getBoundsForFloat01(amount);
             constructionBuilding.transform.localScale = cBounds.extents * 2;
-            constructionBuilding.transform.localPosition = cBounds.center;
+            constructionBuilding.transform.position = buildingMesh.transform.position + cBounds.center;
             constructionBuilding.transform.localRotation = Quaternion.Euler(0, 0, 0);
             if(TimelineController.Instance.timeLineSpeed > 0.0f)
             {
@@ -85,7 +86,7 @@ public class TimelineBuilding : MonoBehaviour
     {
         Bounds bounds = new Bounds();
         bounds.extents = new Vector3(buildingMesh.bounds.extents.x, buildingMesh.bounds.extents.y * amount, buildingMesh.bounds.extents.z);
-        bounds.center = new Vector3(0, bounds.extents.y - 0.01f, 0);
+        bounds.center = new Vector3(0, bounds.extents.y - 0.01f - (buildingMesh.bounds.extents.y), 0);
         bounds.Expand(new Vector3(0.5f,0.0f,0.5f));
 
         return bounds;
