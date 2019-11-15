@@ -24,6 +24,14 @@ public class TimelineBuilding : MonoBehaviour
         startConstructionDate = new DateTime(startConstructionTimelineDate.year, startConstructionTimelineDate.month, startConstructionTimelineDate.day);
         endConstructionDate = new DateTime(endConstructionTimelineDate.year, endConstructionTimelineDate.month, endConstructionTimelineDate.day);
         constructionMaterialForMe = new Material( Resources.Load("Materials/ConstructionMaterial/ConstructionMaterial") as Material); //create copy?
+        if (TimelineController.Instance.CurrentDate <= startConstructionDate)
+        {
+            buildingMesh.enabled = false;
+        }
+        else if (TimelineController.Instance.CurrentDate > endConstructionDate)
+        {
+            buildingMesh.enabled = true;
+        }
     }
 
     // Update is called once per frame
@@ -43,12 +51,7 @@ public class TimelineBuilding : MonoBehaviour
             Bounds cBounds = getBoundsForFloat01(amount);
             constructionBuilding.transform.localRotation = Quaternion.identity;
             Vector3 offset = Vector3.zero;
-            Collider c = GetComponent<Collider>();
-            if (c != null)
-            {
-                offset = c.bounds.center - transform.position;
-            }
-            constructionBuilding.transform.localPosition = new Vector3(cBounds.center.x / transform.lossyScale.x, cBounds.center.y / transform.lossyScale.y, cBounds.center.z / transform.lossyScale.z) + offset;
+            constructionBuilding.transform.position = buildingMesh.bounds.center + cBounds.center;
             constructionBuilding.transform.localScale = cBounds.extents * 2;
             constructionBuilding.transform.localScale = new Vector3((cBounds.extents.x * 2) / transform.lossyScale.x, (cBounds.extents.y * 2) / transform.lossyScale.y, (cBounds.extents.z * 2) / transform.lossyScale.z);
             if(TimelineController.Instance.timeLineSpeed > 0.0f)
