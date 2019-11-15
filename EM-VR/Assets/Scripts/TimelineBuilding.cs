@@ -41,9 +41,16 @@ public class TimelineBuilding : MonoBehaviour
             float relTime = get01FromDateTime();
             float amount = animCurve.Evaluate(relTime);
             Bounds cBounds = getBoundsForFloat01(amount);
+            constructionBuilding.transform.localRotation = Quaternion.identity;
+            Vector3 offset = Vector3.zero;
+            Collider c = GetComponent<Collider>();
+            if (c != null)
+            {
+                offset = c.bounds.center - transform.position;
+            }
+            constructionBuilding.transform.localPosition = new Vector3(cBounds.center.x / transform.lossyScale.x, cBounds.center.y / transform.lossyScale.y, cBounds.center.z / transform.lossyScale.z) + offset;
             constructionBuilding.transform.localScale = cBounds.extents * 2;
-            constructionBuilding.transform.position = buildingMesh.transform.position + cBounds.center;
-            constructionBuilding.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            constructionBuilding.transform.localScale = new Vector3((cBounds.extents.x * 2) / transform.lossyScale.x, (cBounds.extents.y * 2) / transform.lossyScale.y, (cBounds.extents.z * 2) / transform.lossyScale.z);
             if(TimelineController.Instance.timeLineSpeed > 0.0f)
             {
                 if (relTime >= 0.8f)
@@ -86,8 +93,8 @@ public class TimelineBuilding : MonoBehaviour
     {
         Bounds bounds = new Bounds();
         bounds.extents = new Vector3(buildingMesh.bounds.extents.x, buildingMesh.bounds.extents.y * amount, buildingMesh.bounds.extents.z);
-        bounds.center = new Vector3(0, bounds.extents.y - 0.01f - (buildingMesh.bounds.extents.y), 0);
-        bounds.Expand(new Vector3(0.5f,0.0f,0.5f));
+        bounds.center = new Vector3(0, bounds.extents.y - buildingMesh.bounds.extents.y,0);
+        bounds.Expand(new Vector3(0.5f,0.5f,0.5f));
 
         return bounds;
     }

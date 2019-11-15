@@ -9,8 +9,6 @@ public class TimelineController : MonoBehaviour
     public static TimelineController Instance { get { return instance; } }
 
     public float timeLineSpeed = 10.0f; //in days
-
-    public AnimationCurve animCurve = AnimationCurve.EaseInOut(0,0,1,1);
  
 
     public TimelineDate currentTimelineDate;
