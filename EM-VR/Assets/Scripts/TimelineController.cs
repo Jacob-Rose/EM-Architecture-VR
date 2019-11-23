@@ -9,6 +9,7 @@ public class TimelineController : MonoBehaviour
     public static TimelineController Instance { get { return instance; } }
 
     public float timeLineSpeed = 10.0f; //in days
+    public bool Debugging = false;
  
 
     public TimelineDate currentTimelineDate;

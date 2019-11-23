@@ -38,7 +38,8 @@ public class TimelineBuilding : MonoBehaviour
     void Update()
     {
         //if the current time is within the construction date
-        if(TimelineController.Instance.CurrentDate < endConstructionDate && TimelineController.Instance.CurrentDate > startConstructionDate)
+        if(TimelineController.Instance.CurrentDate < endConstructionDate && TimelineController.Instance.CurrentDate > startConstructionDate 
+            || TimelineController.Instance.Debugging)
         {
             if(constructionBuilding == null)
             {
@@ -46,7 +47,16 @@ public class TimelineBuilding : MonoBehaviour
                 constructionBuilding.GetComponent<MeshRenderer>().material = constructionMaterialForMe;
                 constructionBuilding.transform.parent = transform;
             }
-            float relTime = get01FromDateTime();
+            float relTime;
+            if (TimelineController.Instance.Debugging)
+            {
+                relTime = Mathf.Clamp01(TimelineController.Instance.timeLineSpeed);
+            }
+            else
+            {
+                relTime = get01FromDateTime();
+            }
+             
             float amount = animCurve.Evaluate(relTime);
             Bounds cBounds = getBoundsForFloat01(amount);
             constructionBuilding.transform.localRotation = Quaternion.identity;
