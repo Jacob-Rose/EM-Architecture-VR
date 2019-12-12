@@ -41,11 +41,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabGrip
+        public virtual SteamVR_Action_Boolean Grab
         {
             get
             {
-                return SteamVR_Actions.default_GrabGrip;
+                return SteamVR_Actions.default_Grab;
             }
         }
         
@@ -105,11 +105,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 Touchpad
+        public virtual SteamVR_Action_Vector2 TimeControl
         {
             get
             {
-                return SteamVR_Actions.default_Touchpad;
+                return SteamVR_Actions.default_TimeControl;
             }
         }
         

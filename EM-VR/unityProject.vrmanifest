@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.emvr.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\student\\Downloads\\EM-Architecture-VR\\EM-VR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\student\\Downloads\\EM-VR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "EM-VR [Testing]"

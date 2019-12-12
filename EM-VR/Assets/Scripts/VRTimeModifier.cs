@@ -8,7 +8,9 @@ using Valve.VR.InteractionSystem;
 
 public class VRTimeModifier : MonoBehaviour
 {
-    public TextMesh dateTextMesh;
+    public TextMesh dateTextMeshMonth;
+    public TextMesh dateTextMeshYear;
+    public TextMesh dateTextMeshSpeed;
     public SteamVR_Action_Vector2 m_TouchPosition;
     //public Hand m_LftHand;
     //public Hand m_RgtHand;
@@ -22,12 +24,11 @@ public class VRTimeModifier : MonoBehaviour
     }
     void Update()
     {
-        float newSpeed = m_TouchPosition.delta.x;
+        float newSpeed = m_TouchPosition.axis.x * 0.1f;
         TimelineController.Instance.timeLineSpeed += newSpeed;
 
-        dateTextMesh.text = TimelineController.Instance.currentTimelineDate.day.ToString() + " " 
-            + TimelineController.Instance.currentTimelineDate.month.ToString() + " " 
-            + TimelineController.Instance.currentTimelineDate.year.ToString() + " "
-            + TimelineController.Instance.timeLineSpeed.ToString();
+        dateTextMeshMonth.text = "Month: " + TimelineController.Instance.currentTimelineDate.month.ToString(); 
+        dateTextMeshYear.text = "Year: " + TimelineController.Instance.currentTimelineDate.year.ToString(); 
+        dateTextMeshSpeed.text = "Speed: " + TimelineController.Instance.timeLineSpeed.ToString(); 
     }
 }
