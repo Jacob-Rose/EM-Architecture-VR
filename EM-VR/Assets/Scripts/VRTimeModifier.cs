@@ -10,16 +10,19 @@ public class VRTimeModifier : MonoBehaviour
 {
     public TextMesh dateTextMesh;
     public SteamVR_Action_Vector2 m_TouchPosition;
-    public Hand m_LftHand;
-    public Hand m_RgtHand;
+    //public Hand m_LftHand;
+    //public Hand m_RgtHand;
+
+    //private EVRButtonId touchpad = EVRButtonId.k_EButton_SteamVR_Touchpad;
+    //private SteamVR_TrackedObject trackedObj;
 
     private void Start()
     {
-        m_TouchPosition = new SteamVR_Action_Vector2();
+
     }
     void Update()
     {
-        float newSpeed = m_TouchPosition[SteamVR_Input_Sources.LeftHand].delta.x;
+        float newSpeed = m_TouchPosition.delta.x;
         TimelineController.Instance.timeLineSpeed += newSpeed;
 
         dateTextMesh.text = TimelineController.Instance.currentTimelineDate.day.ToString() + " " 

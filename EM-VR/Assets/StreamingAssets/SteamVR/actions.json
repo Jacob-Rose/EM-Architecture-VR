@@ -1,56 +1,60 @@
 {
   "actions": [
     {
-      "name": "/actions/default/in/InteractUI",
+      "name": "/actions/Default/in/InteractUI",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/Teleport",
+      "name": "/actions/Default/in/Teleport",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/GrabPinch",
+      "name": "/actions/Default/in/GrabPinch",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/GrabGrip",
+      "name": "/actions/Default/in/GrabGrip",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/Pose",
+      "name": "/actions/Default/in/Pose",
       "type": "pose"
     },
     {
-      "name": "/actions/default/in/SkeletonLeftHand",
+      "name": "/actions/Default/in/SkeletonLeftHand",
       "type": "skeleton",
       "skeleton": "/skeleton/hand/left"
     },
     {
-      "name": "/actions/default/in/SkeletonRightHand",
+      "name": "/actions/Default/in/SkeletonRightHand",
       "type": "skeleton",
       "skeleton": "/skeleton/hand/right"
     },
     {
-      "name": "/actions/default/in/Squeeze",
+      "name": "/actions/Default/in/Squeeze",
       "type": "vector1",
       "requirement": "optional"
     },
     {
-      "name": "/actions/default/in/HeadsetOnHead",
+      "name": "/actions/Default/in/HeadsetOnHead",
       "type": "boolean",
       "requirement": "optional"
     },
     {
-      "name": "/actions/default/in/SnapTurnLeft",
+      "name": "/actions/Default/in/SnapTurnLeft",
       "type": "boolean",
       "requirement": "suggested"
     },
     {
-      "name": "/actions/default/in/SnapTurnRight",
+      "name": "/actions/Default/in/SnapTurnRight",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/out/Haptic",
+      "name": "/actions/Default/in/Touchpad",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Default/out/Haptic",
       "type": "vibration"
     },
     {
@@ -85,7 +89,7 @@
   ],
   "action_sets": [
     {
-      "name": "/actions/default",
+      "name": "/actions/Default",
       "usage": "single"
     },
     {
